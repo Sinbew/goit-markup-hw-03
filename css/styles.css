@@ -6,6 +6,14 @@
   --footer-grey: rgba(255, 255, 255, 0.6);
 }
 
+
+
+h1,h2,h3,h4,h5,h6 {
+  margin-top: 0;
+  margin-bottom: 0;
+  outline: 1px solid tomato;
+}
+
 body {
   font-family: Roboto, Raleway, sans-serif;
   color: var(--main-black);
@@ -13,12 +21,31 @@ body {
 }
 ul {
   list-style: none;
+  outline: 1px solid tomato;
+
+  
 }
 a {
   text-decoration: none;
+  
+  
+}
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+  list-style: none;
+  outline: 1px solid tomato;
+}
+/* Index.html */
+
+/*  */
+.container{
+  margin-left: auto;
+  margin-right: auto;
+  width: 1200px;
+  
 }
 
-/* Index.html */
 
 /* Logo */
 .logo {
@@ -68,6 +95,7 @@ a {
 /* Header contacts */
 
 .header-contacts {
+  
 }
 .header-mail-contact,
 .header-tel-contact {
@@ -92,7 +120,9 @@ a {
 
 /* Hero section */
 .hero-section {
+  
   background-color: #2f303a;
+  text-align: center;
 }
 .hero-title {
   font-weight: 900;
@@ -104,6 +134,7 @@ a {
   color: var(--main-white);
 }
 .hero-button {
+  
   cursor: pointer;
   font-weight: 700;
   font-size: 16px;
@@ -118,10 +149,16 @@ a {
 .section-2 {
 }
 .features {
+  
 }
-.feature-list {
+.features-list {
+  padding: 94px 15px;
+  
+  
 }
 .feature-title {
+
+  margin-bottom: 10px;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -133,6 +170,7 @@ a {
   font-size: 14px;
   line-height: 1.71;
   color: var(--main-grey);
+
 }
 
 /* Section 3 */
@@ -146,6 +184,7 @@ a {
   color: var(--main-black);
 }
 .works-list {
+
 }
 
 /* Section 4 */
@@ -153,6 +192,7 @@ a {
   background-color: #f5f4fa;
 }
 .section-4-title {
+  
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
