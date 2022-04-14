@@ -290,10 +290,14 @@ img{
 }
 
 .member-photo{
-  margin-bottom: 30px;
+  /* margin-bottom: 30px; */
   
 }
+.team-list-text{
+  padding: 30px 10px;
 
+
+}
 .team-member {
   margin-bottom: 10px;
   font-weight: 500;
@@ -303,7 +307,7 @@ img{
   color: var(--main-black);
 }
 .member-position {
-  margin-bottom: 30px;
+  /* margin-bottom: 30px; */
   font-size: 16px;
   line-height: 1.18;
   text-align: center;
