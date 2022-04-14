@@ -4,16 +4,19 @@
   --main-blue: #2196f3;
   --main-white: #ffffff;
   --footer-grey: rgba(255, 255, 255, 0.6);
-  --header-border: #ECECEC;
-  --members-background: #F5F4FA;
-  --hero-button-hover: #188CE8;
-  --button-nohover: #F5F4FA;
+  --header-border: #ececec;
+  --members-background: #f5f4fa;
+  --hero-button-hover: #188ce8;
+  --button-nohover: #f5f4fa;
   --portfolio-border: #eeeeee;
 }
 
-
-
-h1,h2,h3,h4,h5,h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   margin: 0;
 }
 
@@ -22,25 +25,22 @@ body {
   color: var(--main-black);
   letter-spacing: 0.03em;
 }
-ul,li {
+ul,
+li {
   list-style: none;
   margin: 0;
   padding: 0;
-  
 }
 a {
   text-decoration: none;
   margin: 0;
   padding: 0;
-  
-  
 }
 p {
   margin: 0;
   list-style: none;
-  
 }
-img{
+img {
   display: block;
   max-width: 100%;
   height: auto;
@@ -48,39 +48,33 @@ img{
 /* Index.html */
 
 /*  */
-.container{
+.container {
   margin-left: auto;
   margin-right: auto;
   width: 1200px;
   padding: 0 15px;
   /* outline: 1px solid tomato; */
-  
 }
-
 
 /* Logo */
-.header{
+.header {
   padding-top: 24px;
   padding-bottom: 24px;
-  
 }
 
-.header-flex{
+.header-flex {
   display: flex;
   align-items: center;
-
 }
-.header-border{
+.header-border {
   border-bottom: 1px solid var(--header-border);
 }
 .logo {
-  
   font-size: 26px;
   font-weight: 700;
   font-family: Raleway, sans-serif;
   line-height: 1.19;
   letter-spacing: 0.03em;
-
 }
 .logo-blue-part {
   color: var(--main-blue);
@@ -99,13 +93,11 @@ img{
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  
 }
-.item{
+.item {
 }
-.item:not(:last-child){
+.item:not(:last-child) {
   margin-right: 50px;
-  
 }
 
 .studio-page,
@@ -113,7 +105,6 @@ img{
 .contacts-page {
   color: var(--main-black);
   display: block;
-
 }
 .studio-page:hover,
 .portfolio-page:hover,
@@ -159,21 +150,20 @@ img{
 
 /* Global section styles */
 
-.section{
+.section {
   padding: 94px 0px;
 }
-.visually-hidden{
-    position: fixed;
-    transform: scale(0);
+.visually-hidden {
+  position: fixed;
+  transform: scale(0);
 }
 /* Hero section */
 .hero-section {
   background-color: #2f303a;
   text-align: center;
-
 }
 
-.hero-inner{
+.hero-inner {
   padding-top: 200px;
   padding-bottom: 200px;
 }
@@ -189,7 +179,6 @@ img{
   color: var(--main-white);
 }
 .hero-button {
-  
   padding: 9px 31px;
   border-radius: 4px;
   cursor: pointer;
@@ -202,21 +191,19 @@ img{
   color: var(--main-white);
   border: transparent;
 }
-.hero-button:hover,.hero-button:focus{
+.hero-button:hover,
+.hero-button:focus {
   background-color: var(--hero-button-hover);
 }
 /* Section 2 */
-.section-2{
+.section-2 {
   /* padding-bottom: 0px; */
 }
 .features {
-  
 }
 .features-list {
   display: flex;
   gap: 30px;
-  
-  
 }
 .feature-title {
   margin-bottom: 10px;
@@ -232,13 +219,10 @@ img{
   font-size: 14px;
   line-height: 1.71;
   color: var(--main-grey);
-
 }
 
 /* Section 3 */
-.section-3{
-  
-
+.section-3 {
 }
 .section-3-title {
   margin-bottom: 50px;
@@ -247,22 +231,19 @@ img{
   line-height: 1.16;
   text-align: center;
   color: var(--main-black);
-
 }
 .works-list {
   display: flex;
-
 }
-.works-item{
+.works-item {
   margin-right: 30px;
 }
-.works-item:nth-child(3n){
+.works-item:nth-child(3n) {
   margin-right: 0px;
 }
 /* Section 4 */
-.section-4{
+.section-4 {
   background-color: var(--members-background);
-  
 }
 .section-4-title {
   margin-bottom: 50px;
@@ -274,29 +255,23 @@ img{
 }
 .team-list {
   display: flex;
-  
-
 }
-.member-img{
+.member-img {
   background-color: var(--main-white);
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
-  0px 1px 1px rgba(0, 0, 0, 0.14),
-  0px 2px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
 
-.member-img:not(:last-child){
+.member-img:not(:last-child) {
   margin-right: 30px;
 }
 
-.member-photo{
+.member-photo {
   /* margin-bottom: 30px; */
-  
 }
-.team-list-text{
+.team-list-text {
   padding: 30px 10px;
-
-
 }
 .team-member {
   margin-bottom: 10px;
@@ -320,18 +295,17 @@ img{
   background-color: #2f303a;
 }
 
-.footer-wrap{
+.footer-wrap {
   display: flex;
   flex-direction: column;
 }
 
-.logo-footer{
+.logo-footer {
   margin-bottom: 20px;
   /* display: inline-block; */
 }
 .logo-blue-footer {
   color: var(--main-blue);
-  
 }
 .logo-white-footer {
   color: var(--main-white);
@@ -344,17 +318,16 @@ img{
   color: var(--main-white);
   /* display: inline-block; */
 }
-.footer-text-wrap{
+.footer-text-wrap {
   margin-bottom: 9px;
 }
 .footer-contacts {
-
 }
 
-.mail-wrap{
+.mail-wrap {
   margin-bottom: 9px;
 }
-.footer-mail, 
+.footer-mail,
 .footer-tel {
   margin-bottom: 9px;
   /*   */
@@ -377,9 +350,8 @@ img{
 /* Portfolio.html */
 
 .portfolio-nav {
-  
 }
-.nav-flex{
+.nav-flex {
   display: flex;
   justify-content: center;
   padding-top: 94px;
@@ -392,7 +364,7 @@ img{
   line-height: 1.62;
   cursor: pointer;
   font-family: inherit;
-  
+
   border-radius: 4px;
   border: transparent;
   background-color: var(--button-nohover);
@@ -406,35 +378,35 @@ img{
   background-color: var(--main-blue);
 }
 
-.button-item{
+.button-item {
   /* margin-right: 10px; */
 }
-.button-item:not(:last-child){
+.button-item:not(:last-child) {
   margin-right: 8px;
 }
 .portfolio-list {
 }
-.portfolio-flex{
+.portfolio-flex {
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
   padding-bottom: 94px;
 }
 
-.portfolio-card{
+.portfolio-card {
   width: 370px;
   background-color: var(--main-white);
 }
 
-.portfolio-card:nth-child(3n){
+.portfolio-card:nth-child(3n) {
   margin-right: 0px;
 }
 
-.portfolio-text-wrap{
+.portfolio-text-wrap {
   border: 1px solid var(--portfolio-border);
-  border-top: none; 
+  border-top: none;
 }
-.project-title { 
+.project-title {
   padding-top: 20px;
   margin-left: 24px;
   margin-bottom: 4px;
@@ -443,7 +415,6 @@ img{
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--main-black);
-  
 }
 .project-type {
   margin-left: 24px;
@@ -451,6 +422,4 @@ img{
   font-size: 16px;
   line-height: 1.8;
   color: var(--main-grey);
-  
 }
-
