@@ -198,11 +198,8 @@ img {
 }
 /* Section 2 */
 
-.features {
-}
 .features-list {
   display: flex;
-  gap: 30px;
 }
 .feature-title {
   margin-bottom: 10px;
@@ -211,6 +208,9 @@ img {
   line-height: 1.14;
   text-transform: uppercase;
   color: var(--main-black);
+}
+.features-container:not(:last-child) {
+  margin-right: 30px;
 }
 .feature-text {
   width: 270px;
