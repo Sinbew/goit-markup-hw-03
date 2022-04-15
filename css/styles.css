@@ -353,7 +353,6 @@ img {
 .nav-menu {
   display: flex;
   justify-content: center;
-  padding-top: 94px;
   margin-bottom: 50px;
 }
 .button {
@@ -381,22 +380,28 @@ img {
 .button-item:not(:last-child) {
   margin-right: 8px;
 }
-
+.portfolio-list {
+  padding-bottom: 94px;
+}
 .portfolio-container {
   display: flex;
   flex-wrap: wrap;
-  gap: 30px;
-  padding-bottom: 94px;
+  /* gap: 30px; */
+
+  margin-right: -30px;
+  margin-bottom: -30px;
 }
 
 .portfolio-card {
+  margin-right: 30px;
+  margin-bottom: 30px;
   width: 370px;
   background-color: var(--main-white);
 }
 
-.portfolio-card:nth-child(3n) {
+/* .portfolio-card:nth-child(3n) {
   margin-right: 0px;
-}
+} */
 
 .portfolio-text-wrap {
   border: 1px solid var(--portfolio-border);
