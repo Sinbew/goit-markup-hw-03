@@ -221,8 +221,7 @@ img {
 }
 
 /* Section 3 */
-.section-3 {
-}
+
 .section-3-title {
   margin-bottom: 50px;
   font-weight: 700;
@@ -266,9 +265,6 @@ img {
   margin-right: 30px;
 }
 
-.member-photo {
-  /* margin-bottom: 30px; */
-}
 .team-list-text {
   padding: 30px 10px;
 }
@@ -320,8 +316,6 @@ img {
 .footer-text-wrap {
   margin-bottom: 9px;
 }
-.footer-contacts {
-}
 
 .mail-wrap {
   margin-bottom: 9px;
@@ -348,8 +342,6 @@ img {
 
 /* Portfolio.html */
 
-.portfolio-nav {
-}
 .nav-menu {
   display: flex;
   justify-content: center;
