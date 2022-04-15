@@ -350,13 +350,14 @@ img {
 
 .portfolio-nav {
 }
-.nav-flex {
+.nav-menu {
   display: flex;
   justify-content: center;
   padding-top: 94px;
+  margin-bottom: 50px;
 }
 .button {
-  margin-bottom: 50px;
+  /* margin-bottom: 50px; */
   padding: 6px 22px;
   font-weight: 500;
   font-size: 16px;
