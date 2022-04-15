@@ -58,8 +58,6 @@ img {
 
 /* Logo */
 .header {
-  padding-top: 24px;
-  padding-bottom: 24px;
   border-bottom: 1px solid var(--header-border);
 }
 .header-container {
@@ -106,6 +104,7 @@ img {
 .contacts-page {
   color: var(--main-black);
   display: block;
+  padding: 32px 0;
 }
 .studio-page:hover,
 .portfolio-page:hover,
@@ -162,12 +161,10 @@ img {
 .hero-section {
   background-color: #2f303a;
   text-align: center;
-}
-
-.hero-inner {
   padding-top: 200px;
   padding-bottom: 200px;
 }
+
 .hero-title {
   margin: 0 auto;
   margin-bottom: 30px;
@@ -221,7 +218,9 @@ img {
 }
 
 /* Section 3 */
-
+.section-3 {
+  padding-top: 0;
+}
 .section-3-title {
   margin-bottom: 50px;
   font-weight: 700;
@@ -398,10 +397,9 @@ img {
 .portfolio-text-wrap {
   border: 1px solid var(--portfolio-border);
   border-top: none;
+  padding: 20px 24px;
 }
 .project-title {
-  padding-top: 20px;
-  margin-left: 24px;
   margin-bottom: 4px;
   font-weight: 700;
   font-size: 18px;
@@ -410,9 +408,11 @@ img {
   color: var(--main-black);
 }
 .project-type {
-  margin-left: 24px;
-  margin-bottom: 20px;
   font-size: 16px;
   line-height: 1.8;
   color: var(--main-grey);
+}
+
+.portfolio-card-link {
+  display: block;
 }
